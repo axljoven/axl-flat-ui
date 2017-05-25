@@ -172,3 +172,7 @@ Unlike **Group**, **List** is primarily intended for `li` and `a` for them to di
 ```
 
 `.for-group` is just a fancy container for related form inputs. For example, `<label></label>` and its corresponding `<input type="text" />`.
+
+## NOTE
+
+View the index file to see the predefined styles on action!
