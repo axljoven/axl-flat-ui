@@ -1,0 +1,130 @@
+*, html, body, div {
+  font-family: "Raleway";
+  box-sizing: border-box; }
+
+p {
+  font-family: "Raleway";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 22px; }
+
+ul, ol {
+  padding: 0;
+  margin: 0; }
+
+label {
+  font-weight: 700; }
+
+.divider {
+  border-bottom: 1px solid #f0f0f0;
+  margin: 20px 0px; }
+
+.hidden {
+  display: none; }
+
+.float-right {
+  float: right; }
+
+.float-left {
+  float: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+  font-weight: 300;
+  margin: 0.95em 0; }
+
+.button {
+  font-size: 12px;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: none;
+  box-shadow: 0px 0px 1px #BDBDBD;
+  transition: all 0.3s; }
+  .button.btn__red {
+    background-color: #F44336; }
+  .button.btn__green {
+    background-color: #39AEA9; }
+  .button.btn__blue {
+    background-color: #1E88E5; }
+  .button.btn__grey {
+    color: #FFFFFF;
+    background-color: #8F8F8F; }
+
+.bordered {
+  font-size: 12px;
+  background-color: transparent;
+  color: #757575;
+  padding: 10px 30px;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: none;
+  box-shadow: 0px 0px 2px #BDBDBD;
+  transition: all 0.3s; }
+  .bordered.bordered__red:hover {
+    background-color: #F44336;
+    border-color: #F44336;
+    color: #FFFFFF; }
+  .bordered.bordered__green:hover {
+    background-color: #39AEA9;
+    border-color: #39AEA9;
+    color: #FFFFFF; }
+  .bordered.bordered__blue:hover {
+    background-color: #1E88E5;
+    border-color: #1E88E5;
+    color: #FFFFFF; }
+  .bordered.bordered__grey:hover {
+    background-color: #8F8F8F;
+    border-color: #8F8F8F;
+    color: #FFFFFF; }
+
+.group__horizontal,
+.group__vertical {
+  display: block;
+  margin: 0.5em 0; }
+
+.group__horizontal > .button,
+.group__horizontal > .bordered {
+  display: inline-block; }
+
+.group__vertical > .button,
+.group__vertical > .bordered {
+  display: list-item; }
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 2px;
+  border: 1px solid #BDBDBD; }
+
+input:focus,
+textarea:focus {
+  outline: none; }
+
+textarea {
+  border: 1px solid #BDBDBD;
+  padding: 10px; }
+
+.form-group {
+  margin: 2px 0px; }
+
+ul,
+ol {
+  list-style: none; }
+
+li {
+  padding: 5px 0; }
+
+.list > li,
+.list > a {
+  display: block; }
+
+.list__inline > li,
+.list__inline > a {
+  display: inline-block; }
