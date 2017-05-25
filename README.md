@@ -1,8 +1,6 @@
 # axl-flat-ui
 My own minimalistic flat UI framework. Based from [Bootstrap 3](http://getbootstrap.com/) with [Raleway](https://fonts.google.com/specimen/Raleway) google font.
 
-## Default Variables
-
 ## Initial Components
 
 - Headers
