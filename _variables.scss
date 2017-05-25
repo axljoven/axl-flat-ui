@@ -1,0 +1,36 @@
+// Fonts
+
+$font_primary: "Raleway";
+$font_secondary: $font_primary;
+$font-size: 12px;
+$weight-thin: 300;
+$weight-normal: 400;
+$weight-bold: 700;
+
+// Colors
+
+$primary-color-dark:    #D32F2F;  // Darkened Base color
+$primary-color:         #F44336;  // Base color
+$primary-color-light:   #FFCDD2;  // Lightened Base color
+
+$primary-text-color:    #212121;  // Headings color
+$secondary-text-color:  #757575;  // Contents color
+$divider-color:         #BDBDBD;  // Divider color (also for, not so important content)
+
+$accent-color:          #7C4DFF;  // Emphasis color
+$text-icon-color:       #FFFFFF;  // Text/Icon color(i.e. text inside buttons, icons)
+
+// Custom Colors
+
+$color-green: #39AEA9;
+$color-green-light: lighten($color-green, 5);
+$color-green-dark: darken($color-green, 10);
+
+$color-blue: #1E88E5;
+$color-blue-light: lighten($color-blue, 5);
+$color-blue-dark: darken($color-blue, 10);
+$color-blue-green: #185a9d;
+
+$color-grey: #8F8F8F;
+$color-grey-light: lighten($color-grey, 5);
+$color-grey-dark: darken($color-grey, 20);
