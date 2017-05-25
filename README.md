@@ -130,11 +130,12 @@ Group aligns the buttons and bordereds horizontally and vertically. As of now, i
   <button class="button btn__grey">Make as draft</button>
 </div>
 ```
-### List - Horizontal and Vertical
+### List - Block and Inline
 
-Unlike **Group**, **List** is primarily intended for `li` and `a` for them to align horizontally and vertically.
+Unlike **Group**, **List** is primarily intended for `li` and `a` for them to display as block(horizontally) and inline(vertically).
 
 ```html
+<!-- Each `li` Will display as block element -->
 <ul class="list">
   <li>Home</li>
   <li>About Us</li>
@@ -144,6 +145,7 @@ Unlike **Group**, **List** is primarily intended for `li` and `a` for them to al
 ```
 
 ```html
+<!-- Each `li` Will display as inline-block element -->
 <ul class="list__inline">
   <li>Home</li>
   <li>About Us</li>
