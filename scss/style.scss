@@ -1,4 +1,5 @@
 @import '_variables';
+@import '_mixins';
 
 // Resets ========================================
 
@@ -249,4 +250,34 @@ li {
 .list__inline > li,
 .list__inline > a {
   display: inline-block;
+}
+
+// Grid ==========================================
+
+// Basic grid container
+.grid {
+  font-size: 0;  // Hack! To remove a space on every div
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.grid-cell {
+  width: 100%; // Default column width is 100%
+}
+
+.grid-cell__2 .grid-cell { @include gridCellWidth(2); }
+.grid-cell__3 .grid-cell { @include gridCellWidth(3); }
+.grid-cell__4 .grid-cell { @include gridCellWidth(4); }
+.grid-cell__5 .grid-cell { @include gridCellWidth(5); }
+.grid-cell__6 .grid-cell { @include gridCellWidth(6); }
+.grid-cell__7 .grid-cell { @include gridCellWidth(7); }
+.grid-cell__8 .grid-cell { @include gridCellWidth(8); }
+.grid-cell__9 .grid-cell { @include gridCellWidth(9); }
+.grid-cell__10  .grid-cell{ @include gridCellWidth(10); }
+.grid-cell__11  .grid-cell{ @include gridCellWidth(10); }
+.grid-cell__12  .grid-cell{ @include gridCellWidth(11); }
+
+.grid-cell .image-responsive {
+  width: 100%;
 }

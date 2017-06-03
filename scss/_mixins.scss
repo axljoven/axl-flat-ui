@@ -1,0 +1,5 @@
+/* Calculates the width of each grid-cell
+   depending on the desired number of columns(numOfCol) */
+@mixin gridCellWidth($numOfCol) {
+  width: calc(100% / #{$numOfCol});
+}
