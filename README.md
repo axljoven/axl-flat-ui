@@ -173,6 +173,36 @@ Unlike **Group**, **List** is primarily intended for `li` and `a` for them to di
 
 `.for-group` is just a fancy container for related form inputs. For example, `<label></label>` and its corresponding `<input type="text" />`.
 
+### Grid Gallery
+
+```html
+<div class="grid">
+  // This is a grid container.
+  // All grid-cell must be inside this.
+</div>
+```
+
+```html
+<div class="grid">
+  <div class="grid-cell">A grid cell</div>
+  <div class="grid-cell">A grid cell</div>
+  <div class="grid-cell">A grid cell</div>
+  <div class="grid-cell">A grid cell</div>
+  
+  // grid-cell is the columns inside the grid
+</div>
+```
+
+```html
+<div class="grid grid-cell__2">
+  <div class="grid-cell">A grid cell</div>
+  <div class="grid-cell">A grid cell</div>
+  <div class="grid-cell">A grid cell</div>
+  <div class="grid-cell">A grid cell</div>
+  
+  // grid-cell__n is the number of columns you want to arrange per row
+</div>
+
 ## NOTE
 
 View the index file to see the predefined styles on action!
