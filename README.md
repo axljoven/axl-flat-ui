@@ -202,6 +202,7 @@ Unlike **Group**, **List** is primarily intended for `li` and `a` for them to di
   
   // grid-cell__n is the number of columns you want to arrange per row
 </div>
+```
 
 ## NOTE
 
