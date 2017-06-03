@@ -203,7 +203,31 @@ Unlike **Group**, **List** is primarily intended for `li` and `a` for them to di
   // grid-cell__n is the number of columns you want to arrange per row
 </div>
 ```
+There are 12 predefined columns
 
+```css
+.grid-cell__2 .grid-cell { @include gridCellWidth(2); }
+.grid-cell__3 .grid-cell { @include gridCellWidth(3); }
+.grid-cell__4 .grid-cell { @include gridCellWidth(4); }
+.grid-cell__5 .grid-cell { @include gridCellWidth(5); }
+.grid-cell__6 .grid-cell { @include gridCellWidth(6); }
+.grid-cell__7 .grid-cell { @include gridCellWidth(7); }
+.grid-cell__8 .grid-cell { @include gridCellWidth(8); }
+.grid-cell__9 .grid-cell { @include gridCellWidth(9); }
+.grid-cell__10  .grid-cell{ @include gridCellWidth(10); }
+.grid-cell__11  .grid-cell{ @include gridCellWidth(10); }
+.grid-cell__12  .grid-cell{ @include gridCellWidth(11); }
+```
+
+But you can create additional column count using the `gridCellWidth`
+
+```css
+/* Calculates the width of each grid-cell
+   depending on the desired number of columns(numOfCol) */
+@mixin gridCellWidth($numOfCol) {
+  width: calc(100% / #{$numOfCol});
+}
+```
 ## NOTE
 
 View the index file to see the predefined styles on action!
